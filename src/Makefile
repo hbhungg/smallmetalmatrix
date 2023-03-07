@@ -1,2 +1,2 @@
 smallmatrix: smallmatrix.cpp
-	g++ --std=c++11 smallmatrix.cpp -o ../bin/smallmatrix
+	g++ --std=c++17 -Imetal-cpp/ -framework Metal -framework Foundation -framework Quartz smallmatrix.cpp -o ../bin/smallmatrix
